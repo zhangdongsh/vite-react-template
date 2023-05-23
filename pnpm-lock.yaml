@@ -9,6 +9,7 @@ specifiers:
   eslint: ^8.38.0
   eslint-plugin-react-hooks: ^4.6.0
   eslint-plugin-react-refresh: ^0.3.4
+  husky: ^8.0.3
   lint-staged: ^13.2.2
   react: ^18.2.0
   react-dom: ^18.2.0
@@ -29,6 +30,7 @@ devDependencies:
   eslint: 8.41.0
   eslint-plugin-react-hooks: 4.6.0_eslint@8.41.0
   eslint-plugin-react-refresh: 0.3.5_eslint@8.41.0
+  husky: 8.0.3
   typescript: 5.0.4
   vite: 4.3.8
 
@@ -1345,6 +1347,12 @@ packages:
     resolution: {integrity: sha512-nZXjEF2nbo7lIw3mgYjItAfgQXog3OjJogSbKa2CQIIvSGWcKgeJnQlNXip6NglNzYH45nSRiEVimMvYL8DDqQ==}
     engines: {node: '>=14.18.0'}
     dev: false
+
+  /husky/8.0.3:
+    resolution: {integrity: sha512-+dQSyqPh4x1hlO1swXBiNb2HzTDN1I2IGLQx1GrBuiqFJfoMrnZWwVmatvSiO+Iz8fBUnf+lekwNo4c2LlXItg==}
+    engines: {node: '>=14'}
+    hasBin: true
+    dev: true
 
   /ignore/5.2.4:
     resolution: {integrity: sha512-MAb38BcSbH0eHNBxn7ql2NH/kX33OkB3lZ1BNdh7ENeRChHTYsTvWrMubiIAMNS2llXEEgZ1MUOBtXChP3kaFQ==}
