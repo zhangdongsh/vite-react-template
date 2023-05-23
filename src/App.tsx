@@ -6,14 +6,14 @@ import viteLogo from '/vite.svg';
 function App() {
   const [count, setCount] = useState(0);
 
-  const a = 1;
+  const a = 2;
   console.log(b, b.c);
 
   return (
     <>
       <div>
         <a href='https://vitejs.dev' target='_blank'>
-          <img src={viteLogo} className='logo' alt='Vite logo' />
+          <img src={viteLogo} className='logo' alt='Vite logo' a=1 />
         </a>
         <a href='https://react.dev' target='_blank'>
           <img src={reactLogo} className='logo react' alt='React logo' />
