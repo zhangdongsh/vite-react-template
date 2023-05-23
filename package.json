@@ -6,8 +6,8 @@
   "scripts": {
     "dev": "vite",
     "build": "tsc && vite build",
-    "lint": "eslint src --ext ts,tsx --report-unused-disable-directives --max-warnings 0",
     "eslint": "tsc && eslint src --ext ts,tsx --report-unused-disable-directives --max-warnings 0",
+    "postinstall": "husky install",
     "preview": "vite preview"
   },
   "dependencies": {
@@ -30,7 +30,7 @@
   },
   "lint-staged": {
     "src/**/*.{ts,tsx}": [
-      "npm run eslint"
+      "npx eslint"
     ]
   }
 }
