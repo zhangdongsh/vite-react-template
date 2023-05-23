@@ -7,7 +7,7 @@ function App() {
   const [count, setCount] = useState(0);
 
   useEffect(() => {
-    setCount(11);
+    setCount('aaa');
   }, []);
 
   return (
