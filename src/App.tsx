@@ -5,9 +5,10 @@ import viteLogo from '/vite.svg';
 
 function App() {
   const [count, setCount] = useState(0);
+  // count.a.c = 1;
 
   useEffect(() => {
-    setCount('aaa');
+    // setCount('aaa');
   }, []);
 
   return (
