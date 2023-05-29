@@ -1,3 +1,5 @@
+参考文章：https://juejin.cn/post/7101596844181962788#heading-20
+
 ## vscode
 
 配置推荐的 vscode 插件，配置 vscode 的基础设置。保存自动修复 js、css 等
